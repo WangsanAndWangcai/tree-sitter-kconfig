@@ -742,8 +742,17 @@
       "type": "SEQ",
       "members": [
         {
-          "type": "STRING",
-          "value": "help"
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "help"
+            },
+            {
+              "type": "STRING",
+              "value": "---help---"
+            }
+          ]
         },
         {
           "type": "ALIAS",
@@ -1208,5 +1217,6 @@
   "inline": [],
   "supertypes": [
     "expression"
-  ]
+  ],
+  "reserved": {}
 }

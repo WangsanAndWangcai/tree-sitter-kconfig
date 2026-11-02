@@ -1090,6 +1090,10 @@
     "named": false
   },
   {
+    "type": "---help---",
+    "named": false
+  },
+  {
     "type": ":=",
     "named": false
   },
@@ -1127,11 +1131,12 @@
   },
   {
     "type": "comment",
-    "named": true
+    "named": false
   },
   {
     "type": "comment",
-    "named": false
+    "named": true,
+    "extra": true
   },
   {
     "type": "config",
