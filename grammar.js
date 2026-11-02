@@ -196,7 +196,7 @@ module.exports = grammar({
     ),
 
     help_text: $ => seq(
-      'help',
+      choice('help', '---help---'),
       alias($._help_text, $.text),
     ),
 

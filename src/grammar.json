@@ -745,11 +745,11 @@
           "type": "CHOICE",
           "members": [
             {
-              "type": "STRING",
+              "type": "SYMBOL",
               "value": "help"
             },
             {
-              "type": "STRING",
+              "type": "SYMBOL",
               "value": "---help---"
             }
           ]
